@@ -1,0 +1,24 @@
+body {
+  font-family: Helvetica;
+}
+
+#root {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tabs {
+  display: flex;
+  padding: 10px;
+}
+
+.tab {
+  padding: 10px;
+  cursor: pointer;
+
+  &-selected {
+    font-weight: 900;
+  }
+}
